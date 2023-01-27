@@ -15,4 +15,7 @@ Setting up an environment that allows for analyzing an active malware to avoid c
 good practice, hence the reason why i used isolation is to avoid putting my computer or any other computers on the network at needless and unexpected risk during an analysis
 
 3.Tools I installed on the victim machine for analysis and what their uses
-- PeID
+- PeID : To use in confirming whether a file is packed or obfuscated
+- Strings: A sysinternals program to use to shows the strings in a program
+- PEView: To provide me with useful summary information about the portable executable(s), including compile time and imports
+- Dependency Walker: For showing imports
